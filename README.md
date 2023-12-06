@@ -1,1 +1,5 @@
 # terraform-aws-network-firewall
+
+AWS Network Firewall is a managed, stateful firewall that provides protection for all types of network traffic, including web traffic, database traffic, and streaming traffic. It operates at the network layer (layer 3 of the OSI model), which means it can inspect IP packets and block malicious traffic based on source and destination IP addresses, ports, and protocols. AWS Network Firewall is a good choice for protecting a wide range of AWS resources, including web applications, databases, and servers.
+
+With AWS Network Firewall, you can define firewall rules that provide fine-grained control over network traffic. Network Firewall works together with AWS Firewall Manager so you can build policies based on Network Firewall rules and then centrally apply those policies across your virtual private clouds (VPCs) and accounts.
